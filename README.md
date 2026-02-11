@@ -3,7 +3,5 @@
 - https://roov.org/2020/03/bbr-bbrplus-bbr2/
 - 推荐使用该脚本：bash <(curl -Lso- https://git.io/kernel.sh)
 ```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/cyao2q/Linux-NetSpeed/master/tcp.sh"
-chmod +x tcp.sh
-./tcp.sh
+bash <(curl -L -s -k https://raw.githubusercontent.com/cyao2q/Linux-NetSpeed/master/tcp.sh)
 ```
